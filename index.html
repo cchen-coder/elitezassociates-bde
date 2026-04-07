@@ -9,7 +9,7 @@
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --navy: #0a1628; --navy2: #0f1e38; --navy3: #162440;
+  --light gray: #f1f5f9; --navy2: #0f1e38; --navy3: #162440;
   --accent: #2563eb; --accent-h: #1d4ed8;
   --accent2: #10b981; --accent3: #f59e0b; --accent4: #ef4444; --purple: #8b5cf6;
   --fg: #f0f4ff; --fg2: #94a3b8; --fg3: #64748b;
@@ -18,7 +18,7 @@
   --radius: 12px; --radius2: 8px; --sw: 228px;
 }
 html { scroll-behavior: smooth; }
-body { background: var(--navy); color: var(--fg); font-family: 'Calibri', sans-serif; font-size: 14px; line-height: 1.5; min-height: 100vh; overflow-x: hidden; }
+body { background: var(--light gray); color: var(--#f1f5f9); font-family: 'Calibri', Calibri; font-size: 14px; line-height: 1.5; min-height: 100vh; overflow-x: hidden; }
 .app { display: flex; min-height: 100vh; }
 .sidebar { width: var(--sw); min-width: var(--sw); background: var(--navy2); border-right: 1px solid var(--border); display: flex; flex-direction: column; position: fixed; top:0; left:0; height:100vh; overflow-y:auto; z-index:50; transition: transform 0.3s ease; }
 .sidebar::-webkit-scrollbar { width:4px; } .sidebar::-webkit-scrollbar-thumb { background: var(--border2); border-radius:4px; }
